@@ -1,13 +1,8 @@
+import Link from "next/link";
 import React from "react";
 
-const Home = () => {
-  return (
-    <div className="min-h-screen bg-linear-to-br from-blue-50 to-indigo-100 flex flex-col items-center justify-center p-6 ">
-      <div className="text-center">
-        <h1>Welcome to the Dashboard App</h1>
-      </div>
-    </div>
-  );
+const DashBoard = () => {
+  return <h1>DashBoard</h1>;
 };
 
-export default Home;
+export default DashBoard;
